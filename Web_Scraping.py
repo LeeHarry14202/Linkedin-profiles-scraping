@@ -8,7 +8,8 @@ import csv
 
 # Task 1: Login to Linkedin
 # Load Chrome driver
-driver = webdriver.Chrome('/home/lee/Desktop/Linkedin-profiles-scraping-main/chromedriver')
+your_chromedriver_path = ''
+driver = webdriver.Chrome(your_chromedriver_path)
 
 
 def go_to_linkedin():
